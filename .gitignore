@@ -5,6 +5,12 @@ __pycache__/
 
 # C extensions
 *.so
+.DS_Store
+.idea/
+dataset/
+output/
+target/
+build/
 
 # Distribution / packaging
 .Python
