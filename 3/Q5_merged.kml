@@ -1,0 +1,195 @@
+<kml
+    xmlns="http://earth.google.com/kml/2.0">
+    <Document>
+        <Style id="z1">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>Libraries</name>
+            <Placemark>
+                <name>Leavey Library</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.2827902,34.0217186</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>VKC Library</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.2840025,34.0212585</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Doheny Library</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.2837366,34.020144</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Law Library</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.2842727,34.0186751</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Hoose Library</name>
+                <styleUrl>#z1</styleUrl>
+                <Point>
+                    <coordinates>-118.2866056,34.0186917</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Style id="z2">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>Classes</name>
+            <Placemark>
+                <name>SGM</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.2890292,34.0214385</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>THH</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.2845619,34.0222316</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>SLH</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.2875815,34.0195725</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>SAL</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.2894739,34.019476</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>OHE</name>
+                <styleUrl>#z2</styleUrl>
+                <Point>
+                    <coordinates>-118.2896937,34.0206254</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Style id="z3">
+            <IconStyle>
+                <Icon>
+                    <href>http://www.google.com/intl/en_us/mapfiles/ms/micons/yellow-dot.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Folder>
+            <name>Recreational</name>
+            <Placemark>
+                <name>Lyon Center</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.2884284,34.0244047</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>PED Building</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.286324,34.0212992</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Cromwell Field</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.2884515,34.0225474</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Village Gym</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.285942,34.0248299</coordinates>
+                </Point>
+            </Placemark>
+            <Placemark>
+                <name>Dedeaux Field</name>
+                <styleUrl>#z3</styleUrl>
+                <Point>
+                    <coordinates>-118.2898526,34.0237627</coordinates>
+                </Point>
+            </Placemark>
+        </Folder>
+        <Placemark>
+            <Style id="transBluePoly">
+                <LineStyle>
+                    <width>1.5</width>
+                </LineStyle>
+                <PolyStyle>
+                    <color>7dff0000</color>
+                </PolyStyle>
+            </Style>
+            <name>USC Polygon</name>
+            <styleUrl>#transBluePoly</styleUrl>
+            <Polygon>
+                <extrude>1</extrude>
+                <altitudeMode>relativeToGround</altitudeMode>
+                <outerBoundaryIs>
+                    <LinearRing>
+                        <coordinates>
+              -118.2842727,34.0186751,17
+              -118.2866056,34.0186917,17
+              -118.2894739,34.019476,17
+              -118.2896937,34.0206254,17
+              -118.2898526,34.0237627,17
+              -118.2884284,34.0244047,17
+              -118.285942,34.0248299,17
+              -118.2827902,34.0217186,17
+              -118.2842727,34.0186751,17
+            </coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
+        </Placemark>
+        <Placemark>
+            <Style>
+                <LineStyle>
+                    <width>5</width>
+                    <color>ff0000ff</color>
+                </LineStyle>
+            </Style>
+            <LineString>
+                <coordinates>
+                  -118.286324,34.0212992,0
+                  -118.2845619,34.0222316,0
+
+                  -118.286324,34.0212992,0
+                  -118.2875815,34.0195725,0
+
+                  -118.286324,34.0212992,0
+                  -118.2840025,34.0212585,0
+
+                  -118.286324,34.0212992,0
+                  -118.2884515,34.0225474,0
+                </coordinates>
+            </LineString>
+        </Placemark>
+    </Document>
+</kml>
+
